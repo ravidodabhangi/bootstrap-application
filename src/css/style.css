@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  color: #516171;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+}
+a {
+  color: #092032;
+  /* color: #ff4d29; */
+}
+.carousel-item > img {
+  width: 100%;
+  height: 90vh;
+}
+img {
+  width: 100%;
+}
+.box {
+  background-color: deeppink;
+  min-height: 200px;
+}
+.aboutImage
+{
+  min-width: 100%;
+  max-height: 350px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .carousel-item > img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel-item > img {
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .carousel-item > img {
+    width: 100%;
+    height: 90vh;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .carousel-item > img {
+    width: 100%;
+    height: 90vh;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .carousel-item > img {
+    width: 100%;
+    height: 90vh;
+  }
+}
